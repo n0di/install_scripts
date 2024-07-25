@@ -15,4 +15,4 @@ sudo /usr/share/postgresql-common/pgdg/apt.postgresql.org.sh
 
 # Install the latest version of PostgreSQL:
 # If you want a specific version, use 'postgresql-16' or similar instead of 'postgresql'
-sudo apt -y install postgresql
+sudo apt -y install postgresql pg-activity
