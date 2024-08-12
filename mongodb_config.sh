@@ -7,9 +7,9 @@ ulimit -n 262140
 echo "vm.swappiness=1" >> /etc/sysctl.conf
 
 # if use cluster
+openssl rand -base64 756 > /path/to/mongodb-keyfile
 chmod 600 /path/to/mongodb-keyfile
 chown mongodb:mongodb /path/to/mongodb-keyfile
-openssl rand -base64 756 > /path/to/mongodb-keyfile
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
